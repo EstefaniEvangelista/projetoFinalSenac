@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- Importação da fonte do google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/receita.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" >
+            <div class="collapse navbar-collapse">
+                <img src="./img/logo.PNG" alt="logo" class="idimg">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastro.html">CADASTRO DE PRODUTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastroUsuario.html">CADASTRO DE USUÁRIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./receita.html">RECEITAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">LOGIN</a>
+                    </li>
+                    <i class="bi bi-person-circle"></i>
+                </ul>
+            </div>
+        </nav>
+        
+        <h1>Receita do Dia</h1>
+        <div class="receita">
+            <img class="tortaAbobora" src="./img/1.webp" alt="Saúde no prato logo">
+            <div class="card">
+                <h2>Torta de Abobora Saborosa</h2>
+                <p>A famosa torta de abobora com massa fofinha e delicioso recheio</p>
+            </div> 
+        </div>
+        <h3>
+          <i class="bi bi-card-list"></i>
+            Listar Receitas
+        </h3>
+        <div class="container">
+            <div class="listReceitas">
+                <img class="cheesecakeMorangos" src="./img/cheesecakeMorango.webp" alt="Cheesecake De Morangos">
+                    <h2>Cheesecake De Morangos</h2>
+                    <p>Deliciosa receita de Cheesecake de morango fácil.</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="rocambole" src="./img/rocambole.jpg" alt="Rocambole De Abacaxi Ao Vinho">
+                    <h2>Rocambole De Abacaxi Ao Vinho</h2>
+                    <p>Sabor do doce tradicional.</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="fricasse" src="./img/fricasse.webp" alt="Fricasse">
+                    <h2>Fricassê de Frango</h2>
+                    <p>Fricassê de Frango delicioso.</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="chipsLegumes" src="./img/chips.webp" alt="Chips de Legumes">
+                    <h2>Chips de Legumes</h2>
+                    <p>Chips de Legumes e Frutas.</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="salada" src="./img/salada.webp" alt="Salada">
+                    <h2>Salada Caesar</h2>
+                    <p>Salada Caesar, a queridinha das saladas</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="espagueteAbobrinha" src="./img/espagueteAbobrinha.jpg" alt="Espaguete Abobrinha">
+                    <h2>Espaguete de Abobrinha</h2>
+                    <p>Sua abobrinha pode virar um espaguete delicioso.</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="gratinado" src="./img/gratinado.jpg" alt="Gratinado de legumes com carne moída">
+                    <h2>Gratinado de legumes com carne moída</h2>
+                    <p>Aprenda esta receita de gratinado de legumes com carne moída.</p> 
+            </div>
+            <div class="listReceitas">
+                <img class="lasanhaBerinjela" src="./img/lasanhaBerinjela.webp" alt="Lasanha de Berinjela">
+                    <h2>Lasanha de Berinjela</h2>
+                    <p>Surpreenda Com 4 Passos Simples</p> 
+            </div>
+            
+
+        </div>
+        
+        
+    
+
+
+
+        
+       
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <img src="./img/logo.PNG" alt="logo" class="idimg">
+    
+                    <div id="footer_social_media">
+                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+    
+                        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+    
+                        <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <ul class="footer-list">
+                    <li>
+                        <h3>Menu</h3>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="./cadastro.html" class="footer-link">Cadastro Produtos</a>
+                    </li>
+                    <li>
+                        <a href="./cadastroUsuario.html" class="footer-link">Cadastro Usuário</a>
+                    </li>
+                </ul>
+    
+                <ul class="footer-list">
+                    <li>
+                        <h3>Receitas</h3>
+                    </li>
+                    <li>
+                        <a href="./receita.html" class="footer-link">Receitas</a>
+                    </li>
+                </ul>
+    
+                <div id="footer_subscribe">
+                    <h3>Pesquisa</h3>
+    
+                    <p>
+                        pesquise uma informação desejada no sistema.
+                    </p>
+    
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="footer_copyright">
+                <!-- &#169 -->
+                Copyright &copy; 2024 - SaveFood.
+                    Todos os direitos reservados.
+            </div>
+        </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous">
+            </script>
+    </body>
+
+</html>
